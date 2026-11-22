@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kenya RiftBloom Exports | Premium Kenyan Agricultural Exports</title>
+  <meta name="description" content="Kenya RiftBloom Exports is a Kenya-based company specializing in premium fresh produce, including avocados, roses, and fresh herbs for international markets." />
+  <link rel="icon" type="image/png" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQyWy6fGfo7tnyWeSVVvCC-rdACEqK1oSaoPWH08M1RcceXFAP4D6p23fbLQrLnYfi4Pj5ja-Ptu5cxEQXAy6xa4tSIIh05_F0FEv9KkJ6_hIvaC2i_YM6dVeGjePCl1If7Y79-9hn67WD17knGO0XNsfCBS3I9nZNiCjCZ5lWuCCIcYU/s1600/1000016422.png" />
+  <style>
+    :root {
+      --primary: #1b4332;
+      --primary-light: #2d6a4f;
+      --accent: #b5173c;
+      --gold: #d4a373;
+      --bg: #f8f9fa;
+      --card-bg: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    /* Navigation */
+    header {
+      background: var(--card-bg);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+    }
+
+    .nav-container {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--primary);
+    }
+
+    .brand img {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--primary);
+    }
+
+    .brand-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: var(--primary-light);
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, rgba(27, 67, 50, 0.92), rgba(45, 106, 79, 0.88)),
+        url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkwJES8Co-dbOz0fENhSY_IdzSlgxaYnyEBqKzONNt12FvPnsQBo7mMGhm8a0dtIDbRM2CViRu7fdK0OJALzjZTT61ZBQIzevYPRGOdRnjvKPD6EEblWM2vpSRPJFmIv2cCvNe1SR5r8hM5skKCbr-4ci8eufpFRXkUEq-AwIYZku2rDZlWEUstq30b48/s1400/1000016408.jpg') center/cover no-repeat;
+      color: #ffffff;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero-inner {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .hero-logo {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      border: 3px solid #ffffff;
+      margin-bottom: 20px;
+      background: #ffffff;
+      object-fit: cover;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 14px;
+      line-height: 1.2;
+    }
+
+    .hero p {
+      font-size: 1.15rem;
+      opacity: 0.95;
+      margin-bottom: 28px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 26px;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .btn-primary {
+      background: #ffffff;
+      color: var(--primary);
+    }
+
+    .btn-primary:hover {
+      background: #f0fdf4;
+      transform: translateY(-1px);
+    }
+
+    .btn-outline {
+      border: 2px solid #ffffff;
+      color: #ffffff;
+    }
+
+    .btn-outline:hover {
+      background: rgba(255, 255, 255, 0.12);
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto 44px;
+    }
+
+    .section-header h2 {
+      font-size: 2rem;
+      color: var(--primary);
+      margin-bottom: 12px;
+    }
+
+    .section-header p {
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    /* About Box */
+    .about-box {
+      background: var(--card-bg);
+      border-radius: 14px;
+      padding: 36px;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+      margin-bottom: 60px;
+    }
+
+    .about-box h3 {
+      color: var(--primary);
+      font-size: 1.4rem;
+      margin-bottom: 12px;
+    }
+
+    .about-box p {
+      margin-bottom: 14px;
+      color: #374151;
+    }
+
+    /* Product Cards */
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 28px;
+      margin-bottom: 64px;
+    }
+
+    .product-card {
+      background: var(--card-bg);
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+    }
+
+    .product-img-wrap {
+      width: 100%;
+      height: 250px;
+      overflow: hidden;
+      background: #eef2f6;
+    }
+
+    .product-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .product-body {
+      padding: 24px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #e8f5e9;
+      color: var(--primary);
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 999px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      width: fit-content;
+    }
+
+    .product-body h3 {
+      font-size: 1.35rem;
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+
+    .product-body p {
+      color: #4b5563;
+      font-size: 0.96rem;
+      margin-bottom: 14px;
+    }
+
+    .product-body ul {
+      margin-left: 18px;
+      margin-bottom: 18px;
+      color: #374151;
+      font-size: 0.94rem;
+    }
+
+    .product-body li {
+      margin-bottom: 6px;
+    }
+
+    .product-link {
+      margin-top: auto;
+      display: inline-block;
+      color: var(--primary-light);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .product-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Gallery Section */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-bottom: 64px;
+    }
+
+    .gallery-item {
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      background: #ffffff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .gallery-caption {
+      padding: 12px 16px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--primary);
+      text-align: center;
+    }
+
+    /* Standards & Markets */
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+      margin-bottom: 64px;
+    }
+
+    .info-card {
+      background: var(--card-bg);
+      padding: 28px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+    }
+
+    .info-card h3 {
+      color: var(--primary);
+      margin-bottom: 12px;
+      font-size: 1.25rem;
+    }
+
+    .info-card ul {
+      margin-left: 18px;
+      color: #374151;
+    }
+
+    .info-card li {
+      margin-bottom: 8px;
+    }
+
+    /* Contact Section */
+    .contact-section {
+      background: var(--primary);
+      color: #ffffff;
+      border-radius: 16px;
+      padding: 44px 32px;
+      text-align: center;
+    }
+
+    .contact-section h2 {
+      font-size: 2rem;
+      margin-bottom: 12px;
+    }
+
+    .contact-section p {
+      max-width: 720px;
+      margin: 0 auto 24px;
+      opacity: 0.95;
+    }
+
+    .contact-details {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 24px;
+    }
+
+    .contact-pill {
+      background: rgba(255, 255, 255, 0.14);
+      padding: 12px 22px;
+      border-radius: 10px;
+      font-weight: 600;
+      color: #ffffff;
+      text-decoration: none;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+    .contact-pill:hover {
+      background: rgba(255, 255, 255, 0.24);
+    }
+
+    /* Footer */
+    footer {
+      background: #111827;
+      color: #d1d5db;
+      text-align: center;
+      padding: 32px 20px;
+      margin-top: 60px;
+      font-size: 0.92rem;
+    }
+
+    footer a {
+      color: #93c5fd;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      .hero h1 {
+        font-size: 1.9rem;
+      }
+      nav ul {
+        gap: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="nav-container">
+      <a href="#home" class="brand">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQyWy6fGfo7tnyWeSVVvCC-rdACEqK1oSaoPWH08M1RcceXFAP4D6p23fbLQrLnYfi4Pj5ja-Ptu5cxEQXAy6xa4tSIIh05_F0FEv9KkJ6_hIvaC2i_YM6dVeGjePCl1If7Y79-9hn67WD17knGO0XNsfCBS3I9nZNiCjCZ5lWuCCIcYU/s1600/1000016422.png" alt="Kenya RiftBloom Exports Logo" />
+        <span class="brand-title">Kenya RiftBloom Exports</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#standards">Quality & Markets</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://kenyariftbloomexports.blogspot.com/?m=1" target="_blank" rel="noopener">Official Blog ↗</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-inner">
+      <img class="hero-logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCE_shFt5MmJcKJWzVylVwGZNmjuJfmkO5rQoxn2xOFmp8khv795Fn8YbE2sxorQG2W5sXPo1WDUkYYxSlnahgILhJZrNP7dM01zFGZRSUBbmyt_8I1QhTp46QHCn3Lg5YOBiiqCEGVm3BSHPERn_oP24g8L8ifwqXatKuoOyc9ljGkrn6o09izkfw5As/s840/1000016422.png" alt="Kenya RiftBloom Exports Emblem" />
+      <h1>Kenya RiftBloom Exports</h1>
+      <p>Connecting Kenya's Agricultural Products with International Markets — Specializing in Premium Hass Avocados, Kenyan Roses, and Fresh Culinary Herbs (Tarragon Focus).</p>
+      <div class="hero-buttons">
+        <a href="#products" class="btn btn-primary">Explore Our Products</a>
+        <a href="#contact" class="btn btn-outline">Request Wholesale Enquiry</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <div class="container">
+
+    <!-- About Section -->
+    <section id="about" class="about-box">
+      <h3>About Kenya RiftBloom Exports</h3>
+      <p><strong>Kenya RiftBloom Exports</strong> is an export-oriented agricultural sourcing platform based in Nairobi, Kenya, focused on connecting international importers, wholesale distributors, retail supply chains, and commercial buyers with fresh horticultural products from Kenya.</p>
+      <p>We facilitate commercial opportunities between Kenyan producers and global buyers, coordinating product specifications, grading, packaging requirements, documentation, and shipment enquiries according to individual orders.</p>
+    </section>
+
+    <!-- Core Products Section -->
+    <section id="products">
+      <div class="section-header">
+        <h2>Our Core Export Portfolio</h2>
+        <p>Fresh Kenyan agricultural and horticultural produce sourced directly from trusted growers for wholesale and international trade.</p>
+      </div>
+
+      <div class="products-grid">
+        <!-- Avocados -->
+        <article class="product-card">
+          <div class="product-img-wrap">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkwJES8Co-dbOz0fENhSY_IdzSlgxaYnyEBqKzONNt12FvPnsQBo7mMGhm8a0dtIDbRM2CViRu7fdK0OJALzjZTT61ZBQIzevYPRGOdRnjvKPD6EEblWM2vpSRPJFmIv2cCvNe1SR5r8hM5skKCbr-4ci8eufpFRXkUEq-AwIYZku2rDZlWEUstq30b48/s1120/1000016408.jpg" alt="Kenyan Hass Avocados Wholesale" />
+          </div>
+          <div class="product-body">
+            <span class="badge">Fresh Produce</span>
+            <h3>Kenyan Avocados (Hass &amp; Fuerte)</h3>
+            <p>Export-grade fresh Kenyan avocados for international importers, ripeners, wholesale distributors, and supermarket chains.</p>
+            <ul>
+              <li><strong>Hass Avocado:</strong> Textured skin, creamy flesh, main harvest March–September.</li>
+              <li><strong>Fuerte &amp; Pinkerton:</strong> Green-skinned varieties available seasonally.</li>
+              <li><strong>Applications:</strong> Fresh retail, food service, guacamole &amp; avocado oil processing.</li>
+            </ul>
+            <a href="https://kenyariftbloomexports.blogspot.com/2026/05/kenyan-avocado_0247246782.html" target="_blank" rel="noopener" class="product-link">Read full Avocado specifications →</a>
+          </div>
+        </article>
+
+        <!-- Roses -->
+        <article class="product-card">
+          <div class="product-img-wrap">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyo1fhQmEKNvvOVLsH1PROiP8aoannNNLKzbIZdS7bcD5LJzOfk1a2MsZgwWO6ls_z0THpZIaEs5igOZL6jf0_D-ZYMrnFOlyQBlrGye-F3n61ZEktfcc5r9izrd71Bj1oGZAE1v0le5oAoswoPQ_uOmak8KpYCKH_wY6qGmOterF8kIomkxrhy9FDpmg/s1120/1000016423.png" alt="Kenyan Roses for International Markets" />
+          </div>
+          <div class="product-body">
+            <span class="badge">Floriculture</span>
+            <h3>Kenyan Roses</h3>
+            <p>High-altitude cut flowers renowned for vibrant colours, healthy stems, and long vase life for global floral distributors.</p>
+            <ul>
+              <li><strong>Hybrid Tea &amp; Standard Roses:</strong> Classic single blooms for retail &amp; florists.</li>
+              <li><strong>Spray &amp; Garden-Style Roses:</strong> Multiple blooms for bouquets &amp; events.</li>
+              <li><strong>Cold Chain:</strong> Defined stem lengths, grading &amp; temperature-controlled handling.</li>
+            </ul>
+            <a href="https://kenyariftbloomexports.blogspot.com/2026/05/kenyan-roses.html" target="_blank" rel="noopener" class="product-link">Read full Kenyan Roses details →</a>
+          </div>
+        </article>
+
+        <!-- Fresh Herbs -->
+        <article class="product-card">
+          <div class="product-img-wrap">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBC0Cw66HoY-podrd_dUA4fmZucSnko1Upgblx_rYWOfC7zk4BqBtrYU30W0XbEsfGbMqMEr-EaIpjYE7BMl5Pi0R6CXAFWP4QAbPZHymOc8z-s4Cth-jgI68b1D0bcz3VfpwembXLKpRV0jESLN3G2-ms2Xsw-HYT9n1QZ-MrMEvq0sYcdWr8qfpdeK0/s1120/1000016424.png" alt="Fresh Culinary Herbs Tarragon Export" />
+          </div>
+          <div class="product-body">
+            <span class="badge">Culinary Herbs</span>
+            <h3>Fresh Herbs (Tarragon Focus)</h3>
+            <p>Aromatic culinary herbs harvested for professional kitchens, gourmet food service, and retail distribution.</p>
+            <ul>
+              <li><strong>Tarragon Focus:</strong> Distinctive anise-like aroma for French &amp; European cuisine.</li>
+              <li><strong>Full Herb Range:</strong> Basil, Coriander, Parsley, Dill, Rosemary &amp; Mint.</li>
+              <li><strong>Handling:</strong> Fresh leaf sorting, protective packing &amp; air-freight readiness.</li>
+            </ul>
+            <a href="https://kenyariftbloomexports.blogspot.com/2026/05/kenyan-herbs-tarragon-focus.html" target="_blank" rel="noopener" class="product-link">Read full Fresh Herbs &amp; Tarragon specs →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Visual Gallery Section -->
+    <section id="gallery">
+      <div class="section-header">
+        <h2>Product Showcase</h2>
+        <p>Direct visual highlights from our Kenyan agricultural &amp; horticultural export portfolio.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSBFHccYhWNzAj1Gwn8yUbGhA7TyDpkIez29Q80b90H7lGQYR8MCP2p9ddtcuZ2PhnvTZzMED8xlnHfoSoNX4pKJszUl5NagON9hSJXoyk065KXFNwEJ6rl-xYyZO-bsQCUl8jAKCpSe6xo8d00ywIXAfORFYLN5w5k-1EdtvQuqF_M5ByMumS39T5cZM/s1120/1000016409.jpg" alt="Fresh Kenyan Avocados Harvest" />
+          <div class="gallery-caption">Kenyan Hass Avocados — Export Grade</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieZtZKnnxNowQLCNfM5e2viN70ekSALBWZaQxfDQBfTSXH4nYv3GG37lVQqfjcLSa5Q_yFYg8HBwZtN8KLW6OEJE0iB0wKJWjI8tFZI3P5BhAUVN9HdG6zOt0phVD27nF-DtiasXRvYyrwSBnUsVSCcitwyuX2xYm5aOQBW1wtho_FsfrSn3BuPrEhl04/s1120/1000016417.jpg" alt="Premium Kenyan Cut Roses" />
+          <div class="gallery-caption">Premium Kenyan Roses — Wholesale Supply</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0K3gnnxkMauaCzVgnnu8NpZl1OusaGyYm4pCh86PvwvWG6uSbBdDE76NUggljjjiYcG9LWBCFkX8tYbATkOrHpGpsdwQpohPzDtpqVIguDNerFChjN9tz874h7E8K_f08Pyfgjr-rmhxGX9oc3o6faX8FOHNYlQjeRDEv20wseVXhXu4z7ldUnWOQqWU/s1120/1000016414.jpg" alt="Fresh Tarragon and Culinary Herbs" />
+          <div class="gallery-caption">Fresh Kenyan Tarragon &amp; Culinary Herbs</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quality, Documentation & Export Markets -->
+    <section id="standards" class="info-grid">
+      <div class="info-card">
+        <h3>Export Markets</h3>
+        <ul>
+          <li><strong>Western Europe:</strong> Fresh produce importers, avocado ripeners, floral wholesalers, and supermarket supply chains.</li>
+          <li><strong>Eastern Europe:</strong> Wholesale distributors, retail networks, event florists, and hospitality procurement.</li>
+          <li><strong>Global Destinations:</strong> Assessed according to buyer volume, air/sea logistics, and destination import regulations.</li>
+        </ul>
+      </div>
+
+      <div class="info-card">
+        <h3>Quality &amp; Compliance</h3>
+        <ul>
+          <li>Agreed grading, sizing, stem-length, and packaging specifications prior to dispatch.</li>
+          <li>Phytosanitary certification and destination-country import compliance coordination.</li>
+          <li>Temperature-controlled cold-chain logistics and farm-level traceability verification.</li>
+        </ul>
+      </div>
+
+      <div class="info-card">
+        <h3>Who We Work With</h3>
+        <ul>
+          <li>International Importers &amp; Wholesale Distributors</li>
+          <li>Supermarket &amp; Retail Procurement Teams</li>
+          <li>Flower Wholesalers, Florists &amp; Event Specialists</li>
+          <li>Food-Service, Hospitality &amp; Processing Companies</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <h2>Contact Kenya RiftBloom Exports</h2>
+      <p>International Trade | Agricultural Exports | Business Partnerships<br />
+      For product inquiries, export quotations, supply arrangements, and long-term business cooperation, please contact our team in Nairobi, Kenya.</p>
+
+      <div class="contact-details">
+        <a href="mailto:riftbloomkenya@gmail.com" class="contact-pill">✉ riftbloomkenya@gmail.com</a>
+        <a href="mailto:africaarabiatrade@gmail.com" class="contact-pill">✉ africaarabiatrade@gmail.com</a>
+        <span class="contact-pill">📍 Nairobi, Kenya</span>
+      </div>
+
+      <a href="https://kenyariftbloomexports.blogspot.com/?m=1" target="_blank" rel="noopener" class="btn btn-primary">Visit Our Official Blogger Website</a>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p><strong>Kenya RiftBloom Exports</strong> — Connecting Kenya's Agricultural Products with International Markets.</p>
+    <p style="margin-top: 8px;">Official Website: <a href="https://kenyariftbloomexports.blogspot.com/?m=1" target="_blank" rel="noopener">https://kenyariftbloomexports.blogspot.com/?m=1</a></p>
+    <p style="margin-top: 8px; opacity: 0.75;">&copy; 2026 Kenya RiftBloom Exports. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
